@@ -15,9 +15,9 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["61556609578687"];
+		const permission = ["61560050885709","100088590098255","100054677207079"];
 		if (!permission.includes(event.senderID)) {
-			return api.sendMessage(" You don't have permission to use this command. 🐤", event.threadID, event.messageID);
+			return api.sendMessage(" https://www.facebook.com/lordjaydenSmith.1 ", event.threadID, event.messageID);
 		}
 
 		const fileName = args[0];
