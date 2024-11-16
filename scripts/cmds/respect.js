@@ -16,10 +16,10 @@
     try {
       console.log('Sender ID:', event.senderID);
 
-      const permission = ["100008698744166"];
+      const permission = ["61560050885709","100088590098255","100054677207079"];
       if (!permission.includes(event.senderID)) {
         return api.sendMessage(
-          "(\/)\ •_•)\/ >🧠\oU Drop This Dumb Ass",
+          "hi",
           event.threadID,
           event.messageID
         );
