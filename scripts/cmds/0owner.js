@@ -17,15 +17,15 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ownerInfo = {
-				name: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡𝐢 𝐊𝐚𝐮𝐫',
-				gender: '𝐅𝐞𝐦𝐥𝐞',
-				hobby: '𝐆𝐮𝐧 𝐅𝐢𝐫𝐢𝐧𝐠 𝐀𝐧𝐝 𝐌𝐮𝐬𝐢𝐜',
-				Fb: 'https://facebook.com/PriyanshiKaurJi',
-				Relationship: '𝐂𝐫𝐮𝐬𝐡',
+				name: '𝐋𝐨𝐫𝐝 𝐊𝐢𝐧𝐠',
+				gender: '𝐦𝐥𝐞',
+				hobby: '𝐊𝐢𝐥𝐥𝐢𝐧𝐠 𝐲𝐨𝐮',
+				Fb:  'https://www.facebook.com/lordjaydenSmith.1',
+				Relationship: '𝐘𝐨𝐮𝐫',
 				bio: '𝐖𝐨𝐫𝐥𝐝 𝐈𝐬 𝐅𝐮𝐥𝐥 𝐎𝐟 𝐖𝐨𝐧𝐝𝐞𝐫𝐬. 𝐑𝐢𝐠𝐡𝐭'
 			};
 
-			const bold = 'https://i.imgur.com/SyBjkss.mp4';
+			const bold = 'https://i.imgur.com/AubbSUX.mp4';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
@@ -38,7 +38,7 @@ module.exports = {
 			fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
 			const response = `
-◈ 𝖮𝖶𝖭𝖤𝖱 𝖨𝖭𝖥𝖮𝖱𝖬𝖠𝖳𝖨𝖮𝖭:\n
+◈ 𝖬𝗒 𝖣𝖾𝖺𝗋 𝖩𝖺𝗒𝖽𝖾𝗇 𝖨𝖭𝖥𝖮𝖱𝖬𝖠𝖳𝖨𝖮𝖭:\n
 Name: ${ownerInfo.name}
 Gender: ${ownerInfo.gender}
 Relationship: ${ownerInfo.Relationship}
