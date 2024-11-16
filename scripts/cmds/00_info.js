@@ -15,14 +15,14 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "꧁𝑄𝑢𝑒𝑒𝑛𝐵𝑜𝑡꧂";
-		const botPrefix = "/";
-		const authorName = "Priyanshi Kaur";
-		const ownAge = "23";
-		const teamName = "Team Priyanshi";
-		const authorFB = "https://www.facebook.com/PriyanshiKaurJi";
-		const authorInsta = "priyanshikaurji";
-		const tikTok = "LOL TIKTOK BANNED IN INDIA";
+		const botName = "꧁𝐵𝑜𝑡꧂";
+		const botPrefix = ".";
+		const authorName = "Lord king";
+		const ownAge = "2";
+		const teamName = "Team Junior";
+		const authorFB = "https://www.facebook.com/lordjaydenSmith.1";
+		const authorInsta = "lordking9857";
+		const tikTok = "Jaydenemith2";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Kolkata');
